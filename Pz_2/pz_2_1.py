@@ -2,10 +2,10 @@
 
 try:
     a = int(input("Введите ваше трехзначное число: "))
-    v = a % 10
-    b = a // 10 % 10
-    c = a // 100
-    res = c * 100 + b + 10 * v
-    print("Результат:" , res)
-except:
+except ValueError:
     print("Ошибка")
+v = a % 10
+b = a // 10 % 10
+c = a // 100
+res = c * 100 + b + 10 * v
+print("Результат:" , res)
