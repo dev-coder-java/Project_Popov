@@ -4,6 +4,7 @@ try:
     a = int(input("Введите ваше трехзначное число: "))
 except ValueError:
     print("Ошибка")
+    exit()
 v = a % 10
 b = a // 10 % 10
 c = a // 100
