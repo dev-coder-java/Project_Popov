@@ -8,7 +8,7 @@ def maximum(i):
 
 
 sales = {}
-produkt = None
+produkt = ''
 
 text = "апельсины 45 991 63 100 12 яблоки 13 47 26 0 161"
 b = text.split()
